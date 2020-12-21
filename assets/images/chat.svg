@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.25" height="24.25" viewBox="0 0 27.25 24.25">
+  <g id="Group_772" data-name="Group 772" transform="translate(-156.75 2)">
+    <g id="Group_541" data-name="Group 541" transform="translate(1290 6104.816)">
+      <g id="Group_540" data-name="Group 540" transform="translate(-1132 -6102.35)">
+        <path id="Icon_feather-message-square" data-name="Icon feather-message-square" d="M24.921,16.856a2.172,2.172,0,0,1-2.269,2.059H9.038L4.5,23.034V6.559A2.172,2.172,0,0,1,6.769,4.5H22.652a2.172,2.172,0,0,1,2.269,2.059Z" transform="translate(-4.5 -4.5)" fill="none" stroke="#181e82" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+      </g>
+    </g>
+    <g id="Group_539" data-name="Group 539" transform="translate(-20 -2)">
+      <g id="Ellipse_20" data-name="Ellipse 20" transform="translate(194 2)" fill="#e17ef2" stroke="#181e82" stroke-width="2">
+        <circle cx="4" cy="4" r="4" stroke="none"/>
+        <circle cx="4" cy="4" r="5" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

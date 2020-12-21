@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="26.375" viewBox="0 0 20 26.375">
+  <g id="Group_773" data-name="Group 773" transform="translate(-153)">
+    <path id="Icon_material-notifications-none" data-name="Icon material-notifications-none" d="M16,28.125a2.507,2.507,0,0,0,2.5-2.5h-5A2.507,2.507,0,0,0,16,28.125Zm7.5-7.5v-6.25c0-3.837-2.037-7.05-5.625-7.9v-.85a1.875,1.875,0,0,0-3.75,0v.85c-3.575.85-5.625,4.05-5.625,7.9v6.25L6,23.125v1.25H26v-1.25ZM21,21.875H11v-7.5c0-3.1,1.888-5.625,5-5.625s5,2.525,5,5.625Z" transform="translate(147 -1.75)" fill="#181e82"/>
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(162 2)" fill="#e17ef2" stroke="#181e82" stroke-width="2">
+      <circle cx="4" cy="4" r="4" stroke="none"/>
+      <circle cx="4" cy="4" r="5" fill="none"/>
+    </g>
+  </g>
+</svg>
