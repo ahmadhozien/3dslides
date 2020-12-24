@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="54" viewBox="0 0 93 54">
+  <defs>
+    <filter id="Rectangle_467" x="0" y="0" width="93" height="54" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_296_4" data-name="Component 296 – 4" transform="translate(1.5 0.5)">
+    <g id="Group_905" data-name="Group 905">
+      <g id="Group_904" data-name="Group 904">
+        <g transform="matrix(1, 0, 0, 1, -1.5, -0.5)" filter="url(#Rectangle_467)">
+          <rect id="Rectangle_467-2" data-name="Rectangle 467" width="90" height="51" rx="2" transform="translate(1.5 0.5)" fill="#748a96"/>
+        </g>
+      </g>
+      <g id="Group_411" data-name="Group 411" transform="translate(31.925 13)">
+        <g id="Linkidin-_logo" data-name="Linkidin- logo">
+          <path id="iconmonstr-linkedin-1" d="M5.42,3.738a2.718,2.718,0,0,1-2.7,2.738,2.718,2.718,0,0,1-2.7-2.738A2.719,2.719,0,0,1,2.721,1,2.719,2.719,0,0,1,5.42,3.738Zm.022,4.928H0V26.19H5.442Zm8.687,0H8.722V26.19H14.13v-9.2c0-5.115,6.562-5.533,6.562,0v9.2H26.12v-11.1c0-8.63-9.71-8.316-11.991-4.068V8.667Z" transform="translate(0 -1)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
