@@ -6,6 +6,9 @@ body {
   font-family: "Sarabun", sans-serif;
   background-color: #f6f6f6;
 }
+a:hover{
+  text-decoration: none;
+}
 * {
   padding: 0;
   margin: 0;
@@ -446,35 +449,29 @@ footer {
 /* end navbar after reg */
 /* ************************************************ */
 /* start signUp1 page */
+.signup  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #181e82;
+  color: #fff;
+  border: 1px solid #181e82;
+}
+.signup  .nav-pills .nav-link{
+  background-color: #fff;
+  color: #181e82;
+  border: 1px solid #181e82;
+  height: 50px;
+  padding: 10px 75px;
+  transition: all ease 0.2s;
+  margin: 0 10px;
+  border-radius: 4px;
+}
 .signup {
   margin: 150px 100px;
   padding: 70px 50px;
   background-color: #fff;
 }
 
-.btn-login,
-.btn-sign {
-  height: 50px;
-  padding: 10px 75px;
-  border: 1px solid #181e82;
-  transition: all ease 0.2s;
-  margin: 0 10px;
-  border-radius: 4px;
-}
-.btn-sign {
-  background-color: #181e82;
-  color: #fff;
-}
-.btn-login {
-  color: #181e82;
-}
-.btn-sign:hover {
-  color: #fff;
-}
-.btn-login:hover {
-  color: #fff;
-  background-color: #181e82;
-}
+
+
 .sign-form {
   margin-top: 70px;
 }
@@ -584,18 +581,15 @@ border-color: #e17ef2;
 .sign-social li a svg {
   fill: #748a96;
   color: #748a96;
-  stroke: #748a96;
   transition: all ease 0.3s;
 }
 .sign-social li a:hover .face-book {
   fill: #5189c7;
   color: #5189c7;
-  stroke: #5189c7;
 }
 .sign-social li a:hover .face-book2 {
   fill: #236ba3;
   color: #236ba3;
-  stroke: r#236BA3ed;
 }
 .last-step h2 {
   text-transform: uppercase;
@@ -674,7 +668,61 @@ border-color: #e17ef2;
   height: 500px;
 }
 .text-input{
+  height: 150px !important;
+  border-bottom: 1px solid #748a9670 !important ;
+  border-radius: 0;
+  resize: none;
+
+}
+label {
+  cursor: pointer;
+  /* Style as you please, it will become the visible UI component. */
+}
+.attach-custom{
+  margin-right: 40px;
+}
+.bottom-text svg{
+fill: #748A96;
+transition: all ease 0.2s;
+}
+.bottom-text a:hover svg{
+  fill: #E17EF2;
+  }
+#upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+#upload-photo2 {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.text-input:focus {
+  color: #748A96;
+  background-color: #fff;
+  border-color: transparent ;
+  outline: 0;
+  box-shadow: none !important;
+}
+.text-input::placeholder {
+ padding: 0 !important;
+}
+.c-input{
+  border: 1px solid #748a96;
+  border-radius: .25rem;
+  transition: all ease 0.2s;
   height: 250px !important;
+  padding:  30px;
+
+}
+.c-input:hover{
+  border-color: #e17ef2;
+ 
+}
+.b-none{
+  border:none ;
 }
 .text-input::placeholder{
   padding: 20px;
@@ -752,9 +800,299 @@ transition: all ease 0.2s;
   .head-term{
     margin-bottom: 30px;
   }
+  /* start price page */
+  .price{
+    padding: 200px  0;
+  }
+  .price-head h2{
+    font-size: 50px;
+    color: #181E82;
+    font-weight: bold;
+    letter-spacing:2px;
+
+
+  }
+  .price-head h2 span{
+    color: #E17EF2;
+  }
+  .price-card {
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 100px;
+    padding: 80px;
+    height: 600px;
+  }
+  .price-card h3{
+    font-size: 50px;
+    color: #181E82;
+    font-weight: bold;
+    letter-spacing:2px;
+    text-transform: uppercase;
+  }
+  .price-card h4{
+    color: #E17EF2;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing:2px;
+    text-transform: uppercase;
+  }
+  .price-card button{
+    margin-bottom: 40px;
+
+  }
+  .price-card p{
+    font-size: 16px;
+    color: #748A96;
+    width: 43%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding: 40px 0;
+
+  }
+.price-footer {
+  padding:50px 80px;
+}
+  .price-footer h5{
+    font-size: 16px;
+    color: #748A96;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #748a9671;
+  }
+  .pre li{
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .pre li span{
+    color: #707070;
+    font-size: 10px;
+  }
+  .price-card h5{
+    color: #181E82;
+    font-size: 16px;
+    text-transform: uppercase;
+
+  }
+.p-footer{
+  background-color: #E17EF2;
+  position: relative;
+  width: 100%;
+  height: 19px;
+  padding: 0 !important;
+  border-bottom-left-radius:15px ;
+  border-bottom-right-radius:15px ;
+  bottom: 17px;
+  right: 0;
+}
+.badge-value{
+  position: absolute;
+  right: 15px;
+  top: 100px;
+
+}
+/* start notify */
+.notif{
+  padding: 150px 80px;
+  padding-bottom: 50px;
+}
+.notif-scroll{
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  height: 750px;
+  overflow-y: scroll;
+}
+.notif-card{
+  padding: 70px;
+  border: 1px solid #70707017;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.img-pro-2{
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+  margin-top: -25px;
+}
+.msg-info-2{
+  margin-left: 150px;
+
+}
+.msg-info-2 h5{
+font-weight: bold;
+color: #181E82;
+font-size: 21px;
+}
+.msg-info-2 h5 span{
+  font-weight: normal;
+color: #E17EF2;
+font-size: 16px;
+}
+.msg-info-2 h6{
+  font-size: 21px;
+  color: #748A96;
+}
+.msg-info-2 h6 span{
+color: #748a9696;
+font-size: 16px;
+}
+.notif-card{
+  transition: all ease 0.3s;
+}
+.notif-card:hover{
+  background-color: #e17ef217;
+}
+/* start  creat new form */
+.head-creat h2{
+  font-weight: bold;
+  font-size: 21px;
+  color: #748A96;
+text-transform: uppercase;
+}
+/* start all msg page */
+.big-chat{
+  padding-top: 50px;
+}
+.chat-nav{
+  margin-top: 90px;
+}
+.msg-list{
+  list-style: none;
+}
+.msg-list li{
+  display: inline-block;
+  margin-right: 30px;
+}
+.msg-list li h3{
+ font-size: 24px;
+ color: #181E82;
+}
+
+.box-search{
+  border: 1px solid #181E82;
+  border-right: none;
+
+}
+.btn-meg i{
+  color: #E17EF2;
+
+}
+.btn-meg {
+  border: 1px solid #181E82;
+  border-left: none;
+}
+.box-search::placeholder{
+  font-size: 14px;
+  color: #748a9691;
+}
+.img-pro3{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.msg-info-3 h5{
+  color: #748A96;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top:15px;
+}
+.notif-card-2{
+  padding:20px;
+}
+.notif-card-2 img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.notif-card-2 .msg-info-3 {
+  margin-left: 120px;
+}
+.msg-info-3 h5{
+  color: #748A96;
+  font-size: 17px;
+  font-weight: bold;
+}
+.msg-info-3 h6{
+  color: #748A96;
+  font-size: 17px;
+  width: 65%;
+
+}
+.msg-info-3 h6 span{
+  color: #E17EF2;
+  font-size: 10px;
+
+}
+.notif-scroll-2{
+  height: 915px;
+}
+.chat-room{
+  margin-top: 150px;
+  background-color: #fff;
+  height: 70px !important;
+  padding-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #748a9671;
+  margin-right: 5px;
+
+}
+.chat-send{
+  resize: none;
+  background-color: transparent;
+  height: 50px !important;
+  margin-bottom: 200px;
+  
+}
+.send svg{
+  fill: #748A96;
+  transition: all ease 0.2s;
+}
+.send a:hover svg{
+  fill: #E17EF2;
+}
+.d-box li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.d-box{
+  list-style: none;
+}
+.chat-card{
+  height: 450px;
+  margin-top: 200px;
+}
+.msg-info-33 h5{
+  color: #748A96;
+  font-size: 12px;
+
+}
+.msg-info-33{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 60px;
+  padding-bottom: 10px;
+  width: 35%;
+}
+
 /* ********************* start my media query*************************** */
 /* start media query for med-screen */
 @media only screen and (max-device-width: 1366px) {
+  .chat-card {
+    height: 240px;
+    margin-top: 200px;
+}
+  .notif-scroll-2{
+    height: 700px;
+  }
+
+  .price-card p {
+
+    width: 70%;
+ 
+}
   .hero-box img {
     float: none !important;
   }
@@ -777,6 +1115,9 @@ transition: all ease 0.2s;
     width: 70%;
   }
   .sign-social svg {
+    width: 70px;
+  }
+  .sign-social img {
     width: 70px;
   }
   .btn-Male,.btn-Female{
@@ -873,9 +1214,12 @@ transition: all ease 0.2s;
   .sign-social svg {
     width: 60px;
   }
-  .btn-login,
-  .btn-sign {
+  .sign-social img {
+    width: 60px;
+  }
+  .signup .nav-pills .nav-link{
     padding: 10px 32px;
+
   }
   .sign-social {
     margin-top: 0px;
@@ -896,6 +1240,91 @@ transition: all ease 0.2s;
 }
 .privecy {
   margin: 150px 30px;
+}
+.price-card h3,.price-card h4 {
+  font-size: 30px;
+
+}
+.price-card {
+  padding: 20px;
+  padding-top: 50px;
+  height: 500px;
+
+}
+.badge-value {
+
+  width: 80px;
+}
+.price-card button {
+  height: 60px;
+}
+.price-card p {
+  width: 100%;
+  font-size: 14px;
+}
+.price-footer {
+  padding: 50px 20px;
+}
+.price-footer h5 {
+  font-size: 14px;
+
+}
+.price {
+  padding: 150px 0;
+  padding-bottom: 50px;
+}
+.img-pro-2 {
+  width: 80px;
+  height: 80px;
+  margin-top: 0px;
+
+}
+.msg-info-2 {
+  margin-left: 100px;
+}
+.notif {
+  padding: 150px 50px;
+}
+.notif-card {
+  padding: 40px;
+
+}
+.msg-info-2 h6 {
+  font-size: 16px;
+}
+.msg-info-2 h5 {
+  font-size: 16px;
+
+}
+.chat-card {
+  height: 220px;
+}
+.msg-info-33 {
+
+  width: 60%;
+}
+.notif-card-2 img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+.notif-card-2 .msg-info-3 {
+  margin-left: 90px;
+}
+.msg-info-3 h6 {
+  color: #748A96;
+  font-size: 12px;
+  width: 100%;
+}
+.notif-card-2 {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.notif-scroll-2{
+  padding-bottom: 20px;
+}
+.ipad-margin{
+  margin-top: 20px;
 }
 }
 /* end media query for ipad */
@@ -971,22 +1400,7 @@ transition: all ease 0.2s;
   .custom-search:hover {
     width: 333px;
   }
-  /* .footer-logo-box .box-hover .img-logo-top {
-      transform: translateX(-240px);
-  }
-  .box-hover .img-logo-top {
-    transform: translateX(25px);
 
-}
-.box-hover .img3 {
-  transform: translate(39px,0px);
-}
-.box-hover .img1 {
-  transform: translate(29px,9px);
-}
-.box-hover .img2 {
-  transform: translate(34px,5px);
-} */
   .box-hover {
     display: none;
   }
@@ -999,9 +1413,7 @@ transition: all ease 0.2s;
   .or::after {
     display: none;
   }
-  /* .btn-sign-sm {
-  height: 60px;
-} */
+
   .signup {
     margin: 150px 20px;
     margin-bottom: 50px;
@@ -1009,10 +1421,13 @@ transition: all ease 0.2s;
     padding: 20px 0px;
     background-color: #fff;
   }
-  .btn-sign {
+
+  .signup .nav-pills .nav-link{
     padding: 10px 28px;
     margin-bottom: 20px;
+    width: 140px;
   }
+  
   .sign-form {
     margin-top: 35px;
   }
@@ -1053,6 +1468,70 @@ transition: all ease 0.2s;
 .term h4 {
 
   line-height: 25px;
+}
+.notif {
+  padding: 150px 0px;
+}
+.notif-scroll {
+
+  padding-top: 50px;
+
+}
+.img-pro-2 {
+  width: 50px;
+  height: 50px;
+}
+.msg-info-2 {
+  margin-left: 70px;
+}
+.msg-info-2 h6 span {
+  font-size: 12px;
+}
+.pl-0{
+  padding-left: 15px !important;
+}
+.notif-scroll-2 {
+  height: 650px;
+}
+.notif-scroll-2 {
+  margin-top: 270px;
+  padding-top: 30px;
+}
+.msg-list{
+  margin-bottom: 20px;
+}
+.msg-list h3{
+  padding: 10px 0;
+}
+.notif-card-2 img {
+  width: 70px;
+  height: 70px;
+
+}
+.notif-card-2 .msg-info-3 {
+  margin-left: 90px;
+}
+.msg-info-3 h6 {
+  font-size: 14px;
+  width: 100%;
+}
+.notif-card-2 {
+  padding: 20px;
+}
+.chat-card {
+  height: 100px;
+  margin-top: 50px;
+}
+.msg-info-33 {
+
+  width: 75%;
+}
+.chat-room {
+
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+
 }
 }
 /* end media query for mobile*/
