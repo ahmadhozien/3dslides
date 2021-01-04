@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/Css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/Css/all.min.css">
-    <link rel="stylesheet" href="assets/Css/slick.css">
 
-    <link rel="stylesheet" href="assets/Css/slick-theme.css">
 
     <link rel="stylesheet" href="assets/Css/style.css">
 </head>
@@ -299,26 +297,17 @@
     <script src="assets/js/popper.min.js"></script>
 
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
 
     <script src="assets/js/code.js"></script>
+
+    <script src="assets/js/jquery.nicescroll.min.js"></script>
+
     <script>
-        $('.single-item').slick({
-            dots: true,
-            infinite: true,
-            autoplay:true,
+        // tooltip
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
         });
-
     </script>
-        <script>
-            $('.single-item-2').slick({
-                dots: false,
-                infinite: true,
-                autoplay:true,
-            });
-    
-        </script>
-
 </body>
 
 </html>
