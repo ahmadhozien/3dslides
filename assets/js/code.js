@@ -1,7 +1,25 @@
-$(".do-nicescrol").niceScroll({
-	cursorcolor: "#748A96",
-	cursorwidth: "9px",
-	cursorborder: "1px solid #707070",
-	cursorborderradius: "8px",
-	cursorfixedheight: 60
-});  // a world full of color!
+
+
+
+  $(document).ready(function()
+  {
+
+	$(".notif-scroll").niceScroll({
+		cursorcolor:"#748a96",
+		cursorwidth:"7px",
+		cursorheight:"7px",
+		cursorborder:"none",
+		cursorborderradius: "25px"
+	  });
+
+  })
+
+  $(".fa-eye").on("mouseenter",function()
+  {
+	$(this).prev().attr("type","text");
+  })
+
+  $(".fa-eye").on("mouseleave",function()
+  {
+	$(this).prev().attr("type","password");
+  })
